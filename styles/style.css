@@ -54,9 +54,11 @@
 
 }
 
-.menu__list-item:nth-child(3):before{
-  position: absolute;
-  content: "○";
+.menu__list-item:nth-child(1)::before {
+  content: "";
+}
+
+.menu__list-item:nth-child(3)::before{
   font-size: 14px;
   left: -15px ;
 }
@@ -67,12 +69,13 @@
 
 .active-list {
   list-style-type: none; 
-  text-decoration: none;
 }
+
 
 .link-active {
   text-decoration: none;
 }
+
 
 .header__logo {
   width: 148px;
